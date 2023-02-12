@@ -1,0 +1,7 @@
+function getAverage(marks){
+  let result = marks.reduce(function(sum, elem) {
+return sum + elem;},0);
+let x = result/marks.length;
+  let y = Math.floor(x);
+return y;
+}
